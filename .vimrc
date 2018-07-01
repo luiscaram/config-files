@@ -193,3 +193,6 @@ nnoremap <leader>y :Unite history/yank<cr>
 nnoremap <leader>b :Unite -quick-match buffer<cr>
 " }}}
 " }}}
+
+#Vim permanent syntax highlighting
+au BufEnter,BufRead *.ts set filetype=javascript

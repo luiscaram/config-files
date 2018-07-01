@@ -278,6 +278,3 @@ for_window [window_role="task_dialog"] floating enable
 # Please remove the following exec
 #######################################################################
 exec --no-startup-id i3-config-wizard
-
-#Vim permanent syntax highlighting
-au BufEnter,BufRead *.ts set filetype=javascript
