@@ -194,5 +194,5 @@ nnoremap <leader>b :Unite -quick-match buffer<cr>
 " }}}
 " }}}
 
-#Vim permanent syntax highlighting
+#Vim permanent highlighting
 au BufEnter,BufRead *.ts set filetype=javascript
